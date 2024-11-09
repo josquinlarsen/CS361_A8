@@ -1,3 +1,7 @@
+# Josquin Larsen
+# 8/nov/2024
+# A8 - Microservice A - Wikipedia Search
+
 import zmq
 import sys
 
