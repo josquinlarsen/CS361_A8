@@ -1,4 +1,4 @@
-Microservice A - Artist Wikipedia Search
+# Microservice A - Artist Wikipedia Search
 
 This program is written in Python3 and you will need Python3 to run the microservice.
 This can be verfied with the command:
@@ -14,7 +14,7 @@ https://www.python.org/downloads/
 
 For Windows, terminal refers to the Command Prompt
 
-# Note: if you have Python installed and Python3 does not work, use Python in the terminal.
+<b>Note: if you have Python installed and Python3 does not work, use Python in the terminal.</b>
 
 To begin:
 - download msa_client.py and msa_server.py
