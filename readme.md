@@ -38,3 +38,8 @@ In the msa_client.py terminal, follow the prompts and enter the name of the arti
 
 <b>To receive a URL:</b>
 If the search is successful, a URL will appear; copy the resultant URL from the command line to search. Otherwise an error message will appear. 
+
+## GIF Walkthrough
+<p>
+  <image src='msa_a8.gif' width=500><br>
+</p>
