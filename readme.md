@@ -1,10 +1,21 @@
-install zmq and wikipedia api dependencies
-- pip3 install wikipedia-api
-- pip3 install zmq
+Microservice A - Artist Wikipedia Search
 
-or not?
+This program is written in Python3 and you will need Python3 to run the microservice
 
-start msa_server.py in a terminal
-start msa_client.py in a separate terminal
+To begin:
+- download msa_client.py and msa_server.py
 
-when prompted by msa_client, enter an artist's name. 
+Open two separate terminals
+In each terminal, navigate to the directory where the files are located
+Run this command in the first terminal:
+```
+Python3 msa_server.py
+```
+
+Run this command in the second terminal:
+
+```
+Python3 msa_client.py
+```
+
+In the msa_client.py terminal enter the name of the artist to search for, enter 'QUIT' to stop the microservice.
