@@ -24,7 +24,7 @@ To begin:
    pip3 install pyzmq
    ```
    ```
-   # install WikipediaAPI for Python
+   # install WikipediaAPI for Python, this package requires at least Python3.8
    pip3 install wikipedia-api
    ```
 - download msa_client.py and msa_server.py from the github repository https://github.com/josquinlarsen/CS361_A8
