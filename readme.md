@@ -33,8 +33,8 @@ Run this command in the second terminal:
 ```
 Python3 msa_client.py
 ```
-<b>To request a URL </b>
+<b>To request a URL:</b>
 In the msa_client.py terminal, follow the prompts and enter the name of the artist to search for, enter 'QUIT' to stop the microservice.
 
-<b>To receive a URL </b>
+<b>To receive a URL:</b>
 If the search is successful, a URL will appear; copy the resultant URL from the command line to search. Otherwise an error message will appear. 
