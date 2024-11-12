@@ -30,7 +30,7 @@ To begin:
 - download msa_client.py and msa_server.py from the github repository https://github.com/josquinlarsen/CS361_A8
 - for ease of use, save them in the same directory (these direction assume they are saved in the same directory)
 
-Open two separate terminals,
+Open two separate terminals.
 In each terminal, navigate (cd) to the directory where the files are located
 Run this command in the first terminal:
 ```
