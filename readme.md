@@ -1,7 +1,9 @@
 # Microservice A - Artist Wikipedia Search
 
+For Windows, terminal refers to the Command Prompt
+
 This program is written in Python3 and you will need Python3 to run the microservice.
-This can be verfied with the command:
+This can be verfied in the terminal with the command:
 ```
 Python3 --version
 ```
@@ -12,9 +14,8 @@ Python --version
 If this results in an error, or 'command not found'. Download Python from:
 https://www.python.org/downloads/
 
-For Windows, terminal refers to the Command Prompt
 
-<b>Note: if you have Python installed and Python3 does not work, use Python in the terminal.</b>
+<b>Note: if you have Python installed and Python3 does not work, try Python in the terminal.</b>
 
 To begin:
 - download msa_client.py and msa_server.py
