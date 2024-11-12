@@ -35,3 +35,5 @@ Python3 msa_client.py
 ```
 
 In the msa_client.py terminal enter the name of the artist to search for, enter 'QUIT' to stop the microservice.
+
+Copy the resultant URL from the command line to search. 
