@@ -18,7 +18,16 @@ https://www.python.org/downloads/
 <b>Note: if you have Python installed and Python3 does not work, try Python in the terminal.</b>
 
 To begin:
-- download msa_client.py and msa_server.py
+- make sure that the dependecies, ZeroMQ and Wikipedia-API, are intalled:
+-  ```
+   # install ZeroMQ for Python
+   pip3 install pyzmq
+   ```
+   ```
+   # install WikipediaAPI for Python
+   pip3 install wikipedia-api
+   ```
+- download msa_client.py and msa_server.py from the github repository https://github.com/josquinlarsen/CS361_A8
 - for ease of use, save them in the same directory (these direction assume they are saved in the same directory)
 
 Open two separate terminals
