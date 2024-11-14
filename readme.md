@@ -47,6 +47,10 @@ In the msa_client.py terminal, follow the prompts and enter the name of the arti
 
 <b>To receive a URL:</b>
 If the search is successful, a URL will appear; copy the resultant URL from the command line to search. Otherwise an error message will appear. 
+## UML Diagram
+<p>
+   <image src='a8_uml.png' width=500><br>
+</p>
 
 ## GIF Walkthrough
 <p>
