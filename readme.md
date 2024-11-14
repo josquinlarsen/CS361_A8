@@ -28,7 +28,7 @@ To begin:
    pip3 install wikipedia-api
    ```
 - download msa_client.py and msa_server.py from the github repository https://github.com/josquinlarsen/CS361_A8
-- for ease of use, save them in the same directory (these direction assume they are saved in the same directory)
+- for ease of use, save them in the same directory (these directions assume they are saved in the same directory)
 
 Open two separate terminals.
 In each terminal, navigate (cd) to the directory where the files are located
