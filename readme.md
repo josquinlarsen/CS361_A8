@@ -43,6 +43,7 @@ Run this command in the second terminal:
 Python3 msa_client.py
 ```
 <b>To request a URL:</b>
+
 In the msa_client.py terminal, follow the prompts and enter the name of the artist to search for.
 
 <b>To receive a URL:</b>
