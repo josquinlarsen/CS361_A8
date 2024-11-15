@@ -2,10 +2,10 @@
 # 8/nov/2024
 # A8 - Microservice A - Wikipedia Search
 
-import zmq
-import sys
-
 # ZMQ layout based on Luis Flores' Introduction to ZeroMQ (CS361 OSU)
+
+import zmq
+
 
 def main():
     """
@@ -27,23 +27,11 @@ def main():
     while True:
         artist_name = ""
         if len(artist_name) < 1:
-            artist_name = input("Please enter an artist's name to search. Enter 'QUIT' to end: ")
-
-        # might need this to receive data from Main Program?
-        # will need to remove while loop if so.
-        # if len(sys.argv < 2:
-        #   print("Please provide an artist's name")
-        #   sys.exit(1)
-        #  artist_name = " ".join(sys.argv[1:])
+            artist_name = input("Please enter an artist's name to search: ")
 
         socket.send_string(artist_name)
 
         message = socket.recv()
-
-        if message.decode() == 'Goodbye!':
-            print('Goodbye!')
-            sys.exit()
-            break
 
         print(f"Here's what I've found: {message.decode()}")
 
