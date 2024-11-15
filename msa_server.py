@@ -6,7 +6,7 @@ import zmq
 import wikipediaapi
 
 # WikipediaAPI calls taken from https://pypi.org/project/Wikipedia-API/
-
+# ZMQ layout based on Luis Flores' Introduction to ZeroMQ (CS361 OSU)
 
 wiki_wiki = wikipediaapi.Wikipedia('Microservice A', 'en')
 
@@ -43,11 +43,6 @@ def main():
         artist_name = message.decode()
         
         if len(artist_name) > 0:
-            if artist_name == "QUIT":
-                print('Goodbye!')
-                socket.send_string('Goodbye!')
-                break
-
             response_message = get_wikipedia_page(artist_name)
             socket.send_string(response_message)
 
