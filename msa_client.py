@@ -21,9 +21,8 @@ def main():
     #  '*' may need to be updated to localhost or 127.0.0.1
     #  Port number may be altered to avoid collisions
     socket.connect("tcp://127.0.0.1:5555")
-    print('Sending request...')
+    print("Sending request...")
 
-    
     while True:
         artist_name = ""
         if len(artist_name) < 1:
@@ -38,4 +37,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
