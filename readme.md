@@ -48,7 +48,12 @@ In the msa_client.py terminal, follow the prompts and enter the name of the arti
 
 <b>To receive a URL:</b>
 If the search is successful, a URL will appear; copy the resultant URL from the command line to search. 
-Otherwise an error message will appear. 
+Otherwise an error message will appear. <br>
+
+<b>Note:</b> msa_client.py is one example of how the client can interact with the microservice server. However the client is set up, the server assumes a few things:
+* the server uses ZeroMQ to listen for and receive messsages
+* It binds to a socket at "tcp://127.0.0.1:5555"
+* It needs to be passed a string to search for.
 
 The server will run indefinitely until exited by typing control+C in the command line or exiting out of the terminal.
 
