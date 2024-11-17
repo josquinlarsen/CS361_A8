@@ -54,6 +54,7 @@ Otherwise an error message will appear. <br>
 * the server uses ZeroMQ to listen for and receive messsages
 * It binds to a socket at "tcp://127.0.0.1:5555"
 * It needs to be passed a string to search for.
+* It returns the results, as string, via the same tcp address.
 
 The server will run indefinitely until exited by typing control+C in the command line or exiting out of the terminal.
 
