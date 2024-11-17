@@ -11,14 +11,14 @@ or
 ```
 Python --version
 ```
-If this results in an error, or 'command not found'. Download Python from:
+If this results in an error, or 'command not found', download Python from:
 https://www.python.org/downloads/
 
 
 <b>Note: if you have Python installed and Python3 does not work, try Python in the terminal.</b>
 
 To begin:
-- make sure that the dependecies, ZeroMQ and Wikipedia-API, are intalled:
+- make sure that the dependencies, ZeroMQ and Wikipedia-API, are intalled:
 -  ```
    # install ZeroMQ for Python
    pip3 install pyzmq
@@ -45,7 +45,10 @@ Python3 msa_client.py
 <b>To request a URL:</b>
 
 In the msa_client.py terminal, follow the prompts and enter the name of the artist to search for.
-<b>Note:</b> msa_client.py is one example of how the client can interact with the microservice server. However the client is set up, the server must receive a string in order to function properly. 
+<b>Note:</b> msa_client.py is one example of how the client can interact with the microservice server. However the client is set up, the server assumes a few things:
+* the server uses ZeroMQ to listen for and receive messsages
+* It binds to a socket at "tcp://127.0.0.1:5555"
+* It needs to be passed a string to search for.
 
 <b>To receive a URL:</b>
 If the search is successful, a URL will appear; copy the resultant URL from the command line to search. Otherwise an error message will appear. 
