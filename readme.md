@@ -45,6 +45,7 @@ Python3 msa_client.py
 <b>To request a URL:</b>
 
 In the msa_client.py terminal, follow the prompts and enter the name of the artist to search for.
+<b>Note:</b> msa_client.py is one example of how the client can interact with the microservice server. However the client is set up, the server must receive a string in order to function properly. 
 
 <b>To receive a URL:</b>
 If the search is successful, a URL will appear; copy the resultant URL from the command line to search. Otherwise an error message will appear. 
