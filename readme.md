@@ -59,5 +59,5 @@ The server will run indefinitely until exited by typing control+C in the command
 
 ## GIF Walkthrough
 <p>
-  <image src='msa_a8.gif' width=500><br>
+  <image src='MSA_A8.gif' width=500><br>
 </p>
